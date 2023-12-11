@@ -15,13 +15,14 @@
     text-align: center;
     line-height: $line-height-lg;
     
-    &--padding {
+  }
+  &__description--padding {
       padding-top: 101px;
       padding-bottom: 52px;
       background-color: $color-gray-light;
     }
   }
-}
+
 
 
 
