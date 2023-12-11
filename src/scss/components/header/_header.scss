@@ -1,5 +1,11 @@
+@use "../../presets" as *;
 .header {
   padding-top: 66px;
   padding-bottom: 141px;
   background-color: $color-gray-light;
+  
+  @media (min-width: 992px) {
+      min-height: 700px;
+  }
 }
+

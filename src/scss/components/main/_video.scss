@@ -1,3 +1,4 @@
+@use "../../presets" as *;
 .video {
   padding-bottom: 100px;
   position: relative;
@@ -7,13 +8,28 @@
     height: 600px;
     width: 100%;
     border: 0;
+    @media (max-width: 991.8px) {
+      height: 400px;
+    }
+    @media (max-width: 576px) {
+      height: 300px;
+      }
   }
-  
   &__vector {
     position: absolute;
     top: 42.5%;
     left: 50%;
     margin: -50px;
+    @media (max-width: 991.8px) {
+        height: 77px;
+        width: 77px;
+    }
+    @media (max-width: 576px) {
+      height: 50px;
+      width: 50px;
+      top: 42.5%;
+      left: 55%;
+      margin: -48px;
+      }
   }
 }
-

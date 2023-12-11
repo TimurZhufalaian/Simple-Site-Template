@@ -1,57 +1,13 @@
-@import "skin";
-@import "variables";
-@import "common/common";
-@import "common/classes";
-@import "components/header/header";
-@import "components/header/navbar";
-@import "components/header/content";
-@import "components/main/section";
-@import "components/main/experience";
-@import "components/main/video";
-@import "components/footer/footer";
+@use "common";
 
-@media (min-width: 992px) {
-  .header {
-    min-height: 700px;
-  }
-}
-@media (max-width: 991.8px) {
-  .navbar {
-    margin-bottom: 60px;
-  }
-  .experience__container {
-    justify-content: center;
-  }
-  .experience-item {
-    flex-basis: 25%;
-  }
-  .video__img {
-    height: 400px;
-  }
-  .video__vector {
-    height: 77px;
-    width: 77px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar__list {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-@media (max-width: 576px) {
-  .content {
-    text-align: center;
-    align-items: center;
-  }
-  .video__img {
-    height: 300px;
-  }
-  .video__vector {
-    height: 50px;
-    width: 50px;
-    top: 42.5%;
-    left: 55%;
-    margin: -48px;
-  }
-}
+
+@use "components/header/header";
+@use "components/header/navbar";
+@use "components/header/content";
+@use "components/main/section";
+@use "components/main/experience";
+@use "components/main/video";
+@use "components/footer/footer";
+
+
+

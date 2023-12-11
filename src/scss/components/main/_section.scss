@@ -1,20 +1,19 @@
+@use "../../presets" as *;
+@use "../../common/classes" as *;
 .section {
   padding-top: 112px;
   padding-bottom: 91px;
   background-color: $color-light;
   
   &__title {
-    color: $color-black;
+    @include title;
     text-align: center;
     font-size: 2rem;
-    font-weight: 500;
     margin-bottom: 39px;
   }
   &__description {
-    color: $color-secondary;
+    @include description;
     text-align: center;
-    line-height: $line-height-lg;
-    
   }
   &__description--padding {
       padding-top: 101px;

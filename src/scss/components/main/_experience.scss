@@ -1,3 +1,4 @@
+@use "../../presets" as *;
 .experience {
   background-color: $color-primary;
   color: $color-white;
@@ -8,11 +9,16 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: $gap;
+    @media (max-width: 991.8px) {
+        justify-content: center;
   }
 }
 .experience-item {
   display: flex;
   gap: $gap;
+  @media (max-width: 991.8px) {
+      flex-basis: 25%;
+  }
 
   &__description {
     display: flex;
@@ -29,4 +35,7 @@
   &__image {
     order: -1;
   }
+}
+
+
 }
