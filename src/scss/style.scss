@@ -1,11 +1,15 @@
 @import "skin";
 @import "variables";
-@import "common";
-@import "header";
-@import "section";
-@import "experience";
-@import "video";
-@import "footer";
+@import "common/common";
+@import "common/classes";
+@import "components/header/header";
+@import "components/header/navbar";
+@import "components/header/content";
+@import "components/main/section";
+@import "components/main/experience";
+@import "components/main/video";
+@import "components/footer/footer";
+
 @media (min-width: 992px) {
   .header {
     min-height: 700px;

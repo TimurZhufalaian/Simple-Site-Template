@@ -1,0 +1,32 @@
+.experience {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: 100px 0 88px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: $gap;
+  }
+}
+.experience-item {
+  display: flex;
+  gap: $gap;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-sm;
+  }
+  &__number {
+    font-size: 1.3125rem; /* 21px */
+    font-weight: 500;
+  }
+  &__text {
+    line-height: $line-height-lg;
+  }
+  &__image {
+    order: -1;
+  }
+}

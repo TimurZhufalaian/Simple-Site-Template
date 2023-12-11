@@ -1,0 +1,19 @@
+.navbar {
+  margin-bottom: 133px;
+
+  &__list {
+    display: flex;
+    column-gap: 42.5px;
+  }
+  &__link {
+    display: block;
+    color: $color-black;
+    line-height: $line-height-lg;
+    letter-spacing: $letter-spacing;
+    padding: $gap-sm 0;
+
+    &--hover {
+      color: $color-primary;
+    }
+  }
+}
