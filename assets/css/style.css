@@ -204,40 +204,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  padding-top: 66px;
-  padding-bottom: 141px;
-
-  background-color: #eeeff1;
-}
-
-.navbar {
-  margin-bottom: 133px;
-}
-.navbar__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-  -webkit-column-gap: 42.5px;
-     -moz-column-gap: 42.5px;
-          column-gap: 42.5px;
-}
-.navbar__link {
-  display: block;
-
-  padding: 10px 0;
-
-  letter-spacing: 0.1em;
-
-  color: #000000;
-
-  line-height: 1.64;
-}
-.navbar__link--hover {
-  color: #34547a;
-}
-
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,34 +258,38 @@ a {
   background-color: #34547a;
 }
 
-.section {
-  padding-top: 112px;
-  padding-bottom: 91px;
+.header {
+  padding-top: 66px;
+  padding-bottom: 141px;
 
-  background-color: #f9f9f9;
+  background-color: #eeeff1;
 }
-.section__title {
-  margin-bottom: 39px;
 
-  text-align: center;
+.navbar {
+  margin-bottom: 133px;
+}
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-column-gap: 42.5px;
+     -moz-column-gap: 42.5px;
+          column-gap: 42.5px;
+}
+.navbar__link {
+  display: block;
+
+  padding: 10px 0;
+
+  letter-spacing: 0.1em;
 
   color: #000000;
 
-  font-size: 2rem;
-  font-weight: 500;
-}
-.section__description {
-  text-align: center;
-
-  color: #727272;
-
   line-height: 1.64;
 }
-.section__description--padding {
-  padding-top: 101px;
-  padding-bottom: 52px;
-
-  background-color: #eeeff1;
+.navbar__link--hover {
+  color: #34547a;
 }
 
 .experience {
@@ -369,6 +339,36 @@ a {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
+}
+
+.section {
+  padding-top: 112px;
+  padding-bottom: 91px;
+
+  background-color: #f9f9f9;
+}
+.section__title {
+  margin-bottom: 39px;
+
+  text-align: center;
+
+  color: #000000;
+
+  font-size: 2rem;
+  font-weight: 500;
+}
+.section__description {
+  text-align: center;
+
+  color: #727272;
+
+  line-height: 1.64;
+}
+.section__description--padding {
+  padding-top: 101px;
+  padding-bottom: 52px;
+
+  background-color: #eeeff1;
 }
 
 .video {
