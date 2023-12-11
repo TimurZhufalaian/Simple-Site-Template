@@ -5,6 +5,9 @@
   --color-primary: #34547a;
   --color-secondary: #727272;
   --color-white: #ffffff;
+}
+
+:root {
   --container-primary: 1110px;
   --container-small: 540px;
   --font-family: "Roboto", sans-serif;
@@ -192,6 +195,7 @@ a {
 
   background-color: var(--color-gray-light);
 }
+
 .experience {
   padding: 100px 0 88px;
 

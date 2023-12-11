@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--color-primary);
+  padding: 50px 0;
+  color: var(--color-white);
+}
+.footer__name {
+  font-size: 1.3125rem; /*21px*/
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer__copyright {
+  font-size: 0.8125rem; /*13px*/
+  line-height: var(--line-height-lg);
+}
